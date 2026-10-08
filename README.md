@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Hero62/Hero62/main/assets/banner.svg" alt="Hero62: mods, 3D tools, Rust apps" width="100%" />
+  <img src="https://raw.githubusercontent.com/Hero62/Hero62/main/assets/hero.svg" alt="Hero62: mods, 3D tools, Rust apps" width="100%" />
 </p>
 
 <p align="center">
