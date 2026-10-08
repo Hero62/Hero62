@@ -50,5 +50,5 @@ glue that lets them drive real software.
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Hero62/Hero62/main/assets/smoke-footer.svg" alt="Decorative smoke footer" width="100%" />
+  <img src="https://raw.githubusercontent.com/Hero62/Hero62/main/assets/smoke-footer.svg" alt="Decorative gradient footer" width="100%" />
 </p>

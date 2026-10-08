@@ -1,47 +1,32 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-label="Hero62: mods, 3D tools, Rust apps">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0B0B0D"/>
-      <stop offset="0.55" stop-color="#18181C"/>
-      <stop offset="1" stop-color="#26262C"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0.4">
+      <stop offset="0" stop-color="#0E0E11"/>
+      <stop offset="0.5" stop-color="#1B1B20"/>
+      <stop offset="1" stop-color="#1F1F25"/>
     </linearGradient>
-    <filter id="smoke" x="0" y="0" width="100%" height="100%">
-      <feTurbulence type="fractalNoise" baseFrequency="0.004 0.012" numOctaves="4" seed="7" result="noise">
-        <animate attributeName="baseFrequency" dur="24s" values="0.004 0.012;0.006 0.016;0.004 0.012" repeatCount="indefinite"/>
-      </feTurbulence>
-      <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.78  0 0 0 0 0.78  0 0 0 0 0.82  0 0 0 2.4 -1.05"/>
-      <feGaussianBlur stdDeviation="3"/>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="42"/>
     </filter>
-    <filter id="smoke2" x="0" y="0" width="100%" height="100%">
-      <feTurbulence type="fractalNoise" baseFrequency="0.008 0.02" numOctaves="3" seed="21">
-        <animate attributeName="seed" dur="30s" values="21;22;23;24;25;24;23;22;21" repeatCount="indefinite"/>
-      </feTurbulence>
-      <feColorMatrix type="matrix" values="0 0 0 0 0.6  0 0 0 0 0.6  0 0 0 0 0.66  0 0 0 1.8 -0.95"/>
-      <feGaussianBlur stdDeviation="6"/>
-    </filter>
-    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#fff" stop-opacity="0.15"/>
-      <stop offset="0.6" stop-color="#fff" stop-opacity="0.9"/>
-      <stop offset="1" stop-color="#fff" stop-opacity="1"/>
-    </linearGradient>
-    <mask id="rise"><rect width="1200" height="260" fill="url(#fade)"/></mask>
-    <radialGradient id="vignette" cx="0.5" cy="0.5" r="0.75">
-      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
-      <stop offset="1" stop-color="#000" stop-opacity="0.65"/>
-    </radialGradient>
-    <linearGradient id="ink" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#F4F4F6"/>
-      <stop offset="1" stop-color="#9C9CA6"/>
-    </linearGradient>
+    <clipPath id="clip"><rect width="1200" height="260" rx="16"/></clipPath>
   </defs>
-  <rect width="1200" height="260" rx="14" fill="url(#bg)"/>
-  <g mask="url(#rise)">
-    <rect width="1200" height="260" filter="url(#smoke2)" opacity="0.55">
-      <animateTransform attributeName="transform" type="translate" values="0 0;-30 -6;0 0" dur="40s" repeatCount="indefinite"/>
-    </rect>
-    <rect width="1200" height="260" filter="url(#smoke)" opacity="0.7"/>
+  <g clip-path="url(#clip)">
+    <rect width="1200" height="260" fill="url(#bg)"/>
+    <g filter="url(#soft)">
+      <ellipse cx="170" cy="220" rx="300" ry="80" fill="#8A8A96" opacity="0.55">
+        <animate attributeName="cx" values="170;240;170" dur="18s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse cx="420" cy="30" rx="240" ry="55" fill="#6E6E7A" opacity="0.45">
+        <animate attributeName="cx" values="420;360;420" dur="24s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse cx="1030" cy="70" rx="280" ry="75" fill="#A4A4B0" opacity="0.5">
+        <animate attributeName="cx" values="1030;960;1030" dur="20s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse cx="900" cy="240" rx="260" ry="60" fill="#70707C" opacity="0.45">
+        <animate attributeName="cy" values="240;215;240" dur="16s" repeatCount="indefinite"/>
+      </ellipse>
+    </g>
   </g>
-  <rect width="1200" height="260" rx="14" fill="url(#vignette)"/>
-  <text x="600" y="132" text-anchor="middle" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="78" font-weight="700" letter-spacing="10" fill="url(#ink)">HERO62</text>
-  <text x="600" y="182" text-anchor="middle" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="20" letter-spacing="6" fill="#A8A8B2">MODS · 3D TOOLS · RUST APPS</text>
+  <text x="600" y="138" text-anchor="middle" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="72" font-weight="600" letter-spacing="2" fill="#F2F2F4">Hero62</text>
+  <text x="600" y="180" text-anchor="middle" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="19" letter-spacing="4" fill="#B4B4BD">mods · 3D tools · Rust apps</text>
 </svg>
