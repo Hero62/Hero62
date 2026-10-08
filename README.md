@@ -40,8 +40,8 @@ glue that lets them drive real software.
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=rust,tauri,py,java,ts,lua,blender,git&theme=dark" />
-    <img src="https://skillicons.dev/icons?i=rust,tauri,py,java,ts,lua,blender,git&theme=light" alt="Rust, Tauri, Python, Java, TypeScript, Lua, Blender, Git" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=rust%2Ctauri%2Cpy%2Cjava%2Cts%2Clua%2Cblender%2Cgit&theme=dark" />
+    <img src="https://skillicons.dev/icons?i=rust%2Ctauri%2Cpy%2Cjava%2Cts%2Clua%2Cblender%2Cgit&theme=light" alt="Rust, Tauri, Python, Java, TypeScript, Lua, Blender, Git" />
   </picture>
 </p>
 
