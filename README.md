@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Hero62/Hero62/main/assets/smoke-header.svg?v=2" alt="Hero62: mods, 3D tools, Rust apps" width="100%" />
+  <img src="https://raw.githubusercontent.com/Hero62/Hero62/main/assets/banner.svg" alt="Hero62: mods, 3D tools, Rust apps" width="100%" />
 </p>
 
 <p align="center">
@@ -50,5 +50,5 @@ glue that lets them drive real software.
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Hero62/Hero62/main/assets/smoke-footer.svg?v=2" alt="Decorative gradient footer" width="100%" />
+  <img src="https://raw.githubusercontent.com/Hero62/Hero62/main/assets/footer.svg" alt="Decorative gradient footer" width="100%" />
 </p>
