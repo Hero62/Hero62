@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7F5AF0,100:2CB67D&height=180&section=header&text=Hero62&fontSize=56&fontColor=ffffff&fontAlignY=36&desc=mods%20%C2%B7%203D%20tools%20%C2%B7%20Rust%20apps&descSize=18&descAlignY=58" alt="Hero62: mods, 3D tools, Rust apps" width="100%" />
+  <img src="https://raw.githubusercontent.com/Hero62/Hero62/main/assets/smoke-header.svg" alt="Hero62: mods, 3D tools, Rust apps" width="100%" />
 </p>
 
 <p align="center">
   <a href="https://github.com/Hero62">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=7F5AF0&center=true&vCenter=true&width=520&lines=I+build+tools+for+making+things.;Game+mods+%26+moviemaker+tooling.;3D+pipelines+in+Blender.;Fast+desktop+apps+in+Rust." alt="I build tools for making things: game mods and moviemaker tooling, 3D pipelines in Blender, and fast desktop apps in Rust." />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=9C9CA6&center=true&vCenter=true&width=520&lines=I+build+tools+for+making+things.;Game+mods+%26+moviemaker+tooling.;3D+pipelines+in+Blender.;Fast+desktop+apps+in+Rust." alt="I build tools for making things: game mods and moviemaker tooling, 3D pipelines in Blender, and fast desktop apps in Rust." />
   </a>
 </p>
 
@@ -46,9 +46,9 @@ glue that lets them drive real software.
 </p>
 
 <p align="center">
-  <a href="https://github.com/Hero62?tab=repositories"><img src="https://img.shields.io/badge/Browse_my_repositories-7F5AF0?style=for-the-badge&logo=github&logoColor=white" alt="Browse my repositories" /></a>
+  <a href="https://github.com/Hero62?tab=repositories"><img src="https://img.shields.io/badge/Browse_my_repositories-2A2A30?style=for-the-badge&logo=github&logoColor=white" alt="Browse my repositories" /></a>
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7F5AF0,100:2CB67D&height=100&section=footer" alt="Decorative wave footer" width="100%" />
+  <img src="https://raw.githubusercontent.com/Hero62/Hero62/main/assets/smoke-footer.svg" alt="Decorative smoke footer" width="100%" />
 </p>
